@@ -43,13 +43,13 @@
     $('[data-toggle="tooltip"]').tooltip()
 
     // :: Nicescroll Active Code
-    if ($.fn.niceScroll) {
-        $("body, textarea").niceScroll({
-            cursorcolor: "#151515",
-            cursorwidth: "6px",
-            background: "#f0f0f0"
-        });
-    }
+    // if ($.fn.niceScroll) {
+    //     $("body, textarea").niceScroll({
+    //         cursorcolor: "#151515",
+    //         cursorwidth: "6px",
+    //         background: "#f0f0f0"
+    //     });
+    // }
 
     // :: Owl Carousel Active Code
     if ($.fn.owlCarousel) {
@@ -211,7 +211,7 @@
 
     // :: wow Active Code
     if ($window.width() > 767) {
-        new WOW().init();
+        // new WOW().init();
     }
 
 })(jQuery);
